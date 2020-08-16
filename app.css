@@ -1,0 +1,135 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background: rgb(125, 130, 126);
+}
+
+#image-cara{
+
+	border: 2px solid black;
+	width: 70%;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+ 	margin-bottom: 20px;
+	/*box-sizing: border-box;*/
+	padding: 0; 
+}
+
+
+
+.cara-item{
+	width: 100%;
+	display: flex;
+	height: 300px;
+	padding: 0;
+	cursor: auto; 
+}
+
+#prev-button{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	left: 5%;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+#next-button{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	right: 5%;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+
+
+#header{
+  background: lightgrey;
+}
+
+#header h1{
+	font-family: Cinzel, sans-serif;
+	font-weight: 700;
+}
+
+.nav-item{
+	padding: 0 2px;
+}
+
+/*#sec1{
+	/*border: 2px solid black;*/
+	/*padding: 20px;*/
+	/*width: 90%;
+	margin: auto;
+	margin-top: 5px;
+}*/
+
+#sec1 h2 {
+	letter-spacing: 4px;
+	font-family: Cinzel, sans-serif;
+	font-weight: 700;
+}
+
+#sec1 .jumbotron{
+	padding: 40px;
+	margin: 30px auto;
+}
+
+.card{
+	
+	border-bottom: 2px solid lightskyblue;
+	border-right: 2px solid lightskyblue;
+	border-left: 2px solid lightskyblue;
+	border-radius: 30px;
+
+	position: relative;
+}
+
+.card-title{
+	font-family: 'Red Rose', cursive;
+	letter-spacing: 2px;
+}
+
+.card:hover{
+	bottom: 4px;
+	right: 4px;
+}
+
+.navfoot .nav-item{
+	font-size: 20px;
+}
+
+#contact-sec{
+	background: lightskyblue;
+}
+
+#contact-sec .form{
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	background: rgb(185, 224, 168);
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+#contact-sec .form:hover{
+	bottom: 4px;
+	right: 4px;
+}
+
+.form h4{
+	font-family: 'Times New Roman';
+	text-decoration: underline;
+}
